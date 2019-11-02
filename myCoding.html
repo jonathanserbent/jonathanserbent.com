@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	 <!-- Special for IE, always inlcude -->
+	 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	 <!-- makes it so that everything is scaled proportional to screen -->
+	 <meta name="viewport" content="width = device-width, initial-scale = 1">
+	 <title> Jonathan Serbent </title>
+
+	 <!-- Bootstrap  Javascript, CSS, and JQuery Javascript (local) -->
+	  <link rel="stylesheet" href="css/bootstrap.min.css">
+	  <script src="js/jquery-3.3.1.min.js"></script>
+	  <script src="js/bootstrap.min.js"></script>
+
+	 <!-- Font Awesome CSS -->
+	 <link rel="stylesheet" href="fa/css/all.css">
+
+	 <style type="text/css">
+	 	body{
+	 		background-color: #90AAAA;
+	 	}
+	 	img{
+	 	    display: block;
+		    margin-left: auto;
+		    margin-right: auto;
+		    width: 50%;
+	 	}
+	 	.carousel{
+	 		padding-top: 2%;
+	 		padding-bottom: 2%;
+	 	}
+	 	.carousel-inner img {
+	 		height:50%;
+     		width:50%;
+  		}
+	</style>
+
+</head>
+<body>
+	<!-- EVERYTHING ABOVE THE NAVBAR -->
+
+	<!--NAVBAR-->
+	<nav class="navbar navbar-expand-sm bg-dark sticky-top">
+		
+		<ul class="navbar-nav">
+			
+			<li class="nav-item">
+				<a href="index.html"><h3 style="color:#FFFFFF"><span class="fa fa-home"></span> Jonathan Serbent </h3></a>
+			</li>
+
+			<li class="nav-item">
+				<a class="nav-link" href="aboutMe.html" style = "color:#CCCCCC">About Me <span class="fa fa-user"></span></a>
+			</li>
+
+			<li class="nav-item">
+				<a class="nav-link" href="myMusic.html" style = "color:#CCCCCC">Music <span class="fa fa-music"></span></a>
+			</li>
+
+			<li class="nav-item">
+				<a class="nav-link" href="myCoding.html" style = "color:#CCCCCC">Coding <span class="fa fa-laptop"></span></a>
+			</li>
+
+			<li class="nav-item">
+				<a class="nav-link" href="gamedev.html" style = "color:#CCCCCC">Game Development <span class="fa fa-gamepad"></span></a>
+			</li>
+		</ul>
+
+	</nav>
+
+	<!-- EVERYTHING BELOW THE NAVBAR -->
+
+	<div class="container-fluid" style="padding-top: 2%;">
+		<div class="jumbotron">
+			<h1 class="display-1" style="text-align: center;">"Talk is cheap, show me the code."</h1>
+			<p style="text-align: right;">-Linus Torvalds</p>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<h3>About my coding experience:</h3>
+				<p>I started coding for the first time in the 6th grade in python, then in summer camps I learned java for the first time. I took AP computer science in my junior year of high school, scoring a five on the AP Exam. In my free time I enjoyed coding and learning about code, and founded a game development club at my high school. Currently I am majoring in computer science at the University of Texas at Austin. Since I am only a freshman in college, I do not have many noteworthy coding projects to boast about, but if you would like to see some game development projects I have taken on, feel free to check the game development page, or read on below. Some of them were extremely difficult to code! In addition to coding, I am also well versed in web development. This entire website was written from scratch rather than using a tool like squarespace or wordpress.</p>
+			</div>
+			
+		</div>
+		<hr>
+		<div class="row">
+			<div class="col-12">
+				<h3>UT Coding Projects:</h3>
+				<p>The following is a list of coding projects I did at the University of Texas for my CS courses there. Due to policies at UT I cannot publically put up my code, but I will go into detail on some of the projects that stood out to me.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-6">
+				<h3 style = "font-size: 24px;">Huffman Coding Compression:</h3>
+				<p>This project was for CS 314: Data Structures. In this project I had to use binary trees, and queues to do huffman encoding to compress files. The program would read a byte at a time, and count up the number of occurences of each byte in the file. The tally for each byte along with the type of byte would be placed into a priority queue. They would then be popped from the queue in order to make a binary tree. Traversing this tree would determine the new byte value for whatever node it arrived at. The new values were then written out.</p>
+			</div>
+			<div class="col-6">
+				<h3 style = "font-size: 24px;">Djikstras Shortest Path Algorithm</h3>
+				<p>This project wasa for CS 314: Data Structures. In this project, I rewrote Djikstra's shortest weighted and unweighted path algorithm. This algorithm was then used to find the shortest paths in a graph.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-6">
+				<h3 style = "font-size: 24px;">Bomb Lab</h3>
+				<p>This project was for CS 429: Computer Architecture. In this lab I was assigned a "Bomb," which was really just an assembly program with 6 phases. For each phase, I had to read, debug, and deconstruct the assembly code to figure out what to input in order to "defuse" the "bomb." In the last phase I also had to read through obfuscated code to determine what to pass it.</p>
+			</div>
+			<div class="col-6">
+				<h3 style = "font-size: 24px;">Attack Lab</h3>
+				<p>This project wasa for CS 429: Computer Architecture. In this lab I passed a string to a program, and intentionally overflowed the input in order to get the program to execute code it hadn't intended on executing. For the first 3 phases of this lab I was able to write in code which could be executed, and call said code. For the last 2 phases I had to find sections of code within the program to call in order to do certain things.</p>
+			</div>
+		</div>
+		<hr>
+		<div class="row" style="padding-top: 5%; padding-bottom: 2%;">
+			<div class="col-6">
+				<img class="rounded" src="media/portalsGame.png" alt="screenshot">
+			</div>
+			<div class="col-6">
+				<h3>Smooth Transitioning Portals</h3>
+				<p>This is a project I undertook which originally followed a tutorial, in this short demo you can seamlessly walk through portals. Once I finished the tutorial I realized there was a lot that could be imporved upon, so I spent time making the portals even better. This project heavily used quaternion rotations to not only deal with rotating the player, but also placing them in the proper location after walking through the portals. Definitely worth downloading to try out, can be very disorienting walking through the portals. Click the link below to go to the itch.io page to download the project.</p>
+				<a class="btn btn-primary" href="https://jonathan-serbent.itch.io/project-seamless-portals" target="_blank">Smooth Portals Project</a>
+			</div>
+		</div>
+		<div class="row" style="padding-bottom: 5%;">
+			<div class="col-6">
+				<img class="rounded" src="media/terrainGenerator.png" alt="screenshot">
+			</div>
+			<div class="col-6">
+				<h3>Procedural Terrain Generation</h3>
+				<p>This project generates a random landscape using a perlin noise map. The black/white values of the noise map are translated into height, which is then stored into a 2D array. This 2D array of heights is used to generate a 3D mesh of the terrain. A texture is then applied by selecting colors for certain ranges of heights. The texture is then applied on to the mesh, creating the landscape the player sees. Click the link below to go to the itch.io page to download the project.</p>
+				<a class="btn btn-primary" href="https://jonathan-serbent.itch.io/project-procedural-generated-land" target="_blank">Terrain Generation Project</a>
+			</div>
+		</div>
+	</div>
+	
+	
+	<!-- FOOTER -->
+	<div class="container-fluid" style="background-color: #FFFFFF; padding-top: 2%;padding-bottom: 2%">
+		<div class="row">
+			<div class="col-4" style="text-align: center;">
+				<a href="aboutMe.html" style="color: black;" > About me</a><br>
+				<a href="myMusic.html" style="color: black;"> Music</a><br>
+				<a href="myCoding.html" style="color: black;"> Coding</a><br>
+				<a href="gamedev.html" style="color: black;"> Game Development</a>
+			</div>
+			<div class="col-4" style="text-align: center;">
+				<a href="under-construction.html" style="color: black;">Contact me</a>
+			</div>
+			<div class="col-4" style="text-align: center;">
+				<a href="https://www.instagram.com/jonathanserbent/" style="color: black;" ><span class="fab fa-instagram"></span></a><br>
+				<a href="https://www.youtube.com/user/jasguitar1" style="color: black;"><span class="fab fa-youtube"></span></a><br>
+				<a href="https://itch.io/profile/jonathan-serbent" style="color: black;"><i class="fab fa-itch-io"></i></a><br>
+				<a href="https://www.linkedin.com/in/jonathan-serbent-66134b174" style="color: black;"><span class="fab fa-linkedin"></span></a>
+			</div>
+		</div>
+	</div>
+	
+
+
+</body>

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	 <!-- Special for IE, always inlcude -->
+	 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	 <!-- makes it so that everything is scaled proportional to screen -->
+	 <meta name="viewport" content="width = device-width, initial-scale = 1">
+	 <title> Jonathan Serbent </title>
+
+	 <!-- Bootstrap  Javascript, CSS, and JQuery Javascript (local) -->
+	  <link rel="stylesheet" href="css/bootstrap.min.css">
+	  <script src="js/jquery-3.3.1.min.js"></script>
+	  <script src="js/bootstrap.min.js"></script>
+
+	 <!-- Font Awesome CSS -->
+	 <link rel="stylesheet" href="fa/css/all.css">
+
+	 <style type="text/css">
+	 	body{
+	 		background-color: #90AAAA;
+	 	}
+	 	img{
+	 		width:100%;
+	 		height:100%;
+	 	}
+	 	.carousel{
+	 		padding-top: 2%;
+	 		padding-bottom: 2%;
+	 	}
+	 	.carousel-inner img {
+	 		height:100%;
+     		width:100%;
+  		}
+	</style>
+
+</head>
+<body>
+	<!-- EVERYTHING ABOVE THE NAVBAR -->
+
+	<!--NAVBAR-->
+	<nav class="navbar navbar-expand-sm bg-dark sticky-top">
+		
+		<ul class="navbar-nav">
+			
+			<li class="nav-item">
+				<a href="index.html"><h3 style="color:#FFFFFF"><span class="fa fa-home"></span> Jonathan Serbent </h3></a>
+			</li>
+
+			<li class="nav-item">
+				<a class="nav-link" href="aboutMe.html" style = "color:#CCCCCC">About Me <span class="fa fa-user"></span></a>
+			</li>
+
+			<li class="nav-item">
+				<a class="nav-link" href="myMusic.html" style = "color:#CCCCCC">Music <span class="fa fa-music"></span></a>
+			</li>
+
+			<li class="nav-item">
+				<a class="nav-link" href="myCoding.html" style = "color:#CCCCCC">Coding <span class="fa fa-laptop"></span></a>
+			</li>
+
+			<li class="nav-item">
+				<a class="nav-link" href="#" style = "color:#CCCCCC">Game Development <span class="fa fa-gamepad"></span></a>
+			</li>
+		</ul>
+	</nav>
+
+	<!-- EVERYTHING BELOW THE NAVBAR -->
+	<div class="container-fluid" style="background-color: #000000;">
+		<img src="media/gameDevMeeting1.jpg" style="width: 100%;">
+	</div>
+
+<!-- 	<div class="container">
+		<div class="row">
+
+			<div class="col-10" style="text-align: center;">
+				<h1> "The last 10% is the last 90%..."</h1>
+			</div>
+		</div>
+		<div class="row" style="text-align: center;">
+			<div class="col-10">
+				<h2> -Derek Yu</h2>
+			</div>
+		</div>
+
+	</div> -->
+	<div class="container" style="padding-top: 5%; padding-bottom: 5%;">
+		<div class="row">
+			<div class="col-6">
+				<img class="rounded" src="media/controlsGame.png" alt="screenshot">
+			</div>
+			<div class="col-6">
+				<h3>About my Game Dev Experience</h3>
+				<p>I started to get in to game development at the beginning of my sophomore year of high school. I founded the game development club at my high school, and as a result had to teach myself not only how to code and use unity, but also how to create 2D art, 3D art, rig meshes, animate, create sound effects, and write music. I do my best to put all this together to make some cool games and projects. Most recently I participated in the EGaDS fall game jam and in 30 hours created a game which won the award for best overall game! You can check out that game, Illegal Aliens, by clicking the link below.</p>
+				<p>  This page is a little empty right now, but as I build up this website I will put images and direct links to my game development projects.
+				For now, check out my projects on itch.io!</p>
+				<a class="btn btn-primary" href="https://jonathan-serbent.itch.io/" target="_blank">My Projects</a>
+			</div>
+		</div>
+		<hr>
+		<div class="row" style="padding-top: 5%; padding-bottom: 2%;">
+			<div class="col-6">
+				<img class="rounded" src="media/portalsGame.png" alt="screenshot">
+			</div>
+			<div class="col-6">
+				<h3>Smooth Transitioning Portals</h3>
+				<p>This is a project I undertook which originally followed a tutorial, in this short demo you can seamlessly walk through portals. Once I finished the tutorial I realized there was a lot that could be imporved upon, so I spent time making the portals even better. This project heavily used quaternion rotations to not only deal with rotating the player, but also placing them in the proper location after walking through the portals. Definitely worth downloading to try out, can be very disorienting walking through the portals. Click the link below to go to the itch.io page to download the project.</p>
+				<a class="btn btn-primary" href="https://jonathan-serbent.itch.io/project-seamless-portals" target="_blank">Smooth Portals Project</a>
+			</div>
+		</div>
+		<div class="row" style="padding-bottom: 5%;">
+			
+			<div class="col-6">
+				<h3>Procedural Terrain Generation</h3>
+				<p>This project generates a random landscape using a perlin noise map. The black/white values of the noise map are translated into height, which is then stored into a 2D array. This 2D array of heights is used to generate a 3D mesh of the terrain. A texture is then applied by selecting colors for certain ranges of heights. The texture is then applied on to the mesh, creating the landscape the player sees. Click the link below to go to the itch.io page to download the project.</p>
+				<a class="btn btn-primary" href="https://jonathan-serbent.itch.io/project-procedural-generated-land" target="_blank">Terrain Generation Project</a>
+			</div>
+			<div class="col-6">
+				<img class="rounded" src="media/terrainGenerator.png" alt="screenshot">
+			</div>
+		</div>
+		<div class="row" style="padding-top: 5%; padding-bottom: 2%;">
+			<div class="col-6">
+				<img class="rounded" src="media/illegalAliens.jpg" alt="screenshot">
+			</div>
+			<div class="col-6">
+				<h3>Illegal Aliens</h3>
+				<p>This game was made by myself alone over the course of one weekend for the EGaDS fall 2019 game jam. It won best overall award. The graphics are childish and playful, and so is the game. This game won the Best overall Game award in the game jam. Download it on itch.io to play!</p>
+				<a class="btn btn-primary" href="https://jonathan-serbent.itch.io/illegal-aliens" target="_blank">Illegal Aliens</a>
+			</div>
+		</div>
+		<div class="row" style="padding-bottom: 5%;">
+			
+			<div class="col-6">
+				<h3>Last Stand Man</h3>
+				<p>This game was made over the course of a weekend with a handful of members of Concordia high school's game development club (a club which I founded). In this arcade style game you have to fire at waves of zombies in the dark, however, you can only see in the direction your flashlight is pointing. How long can you survive? Try it out at itch.io!</p>
+				<a class="btn btn-primary" href="https://jonathan-serbent.itch.io/last-stand-man" target="_blank">Last Stand Man</a>
+			</div>
+			<div class="col-6">
+				<img class="rounded" src="media/screenshot-GameLSM.png" alt="screenshot">
+			</div>
+		</div>
+		<div class="row" style="padding-top: 5%; padding-bottom: 2%;">
+			<div class="col-6">
+				<img class="rounded" src="media/controlsGame.png" alt="screenshot">
+			</div>
+			<div class="col-6">
+				<h3>Smooth Third Person Controls</h3>
+				<p>This project is one that I made casually over the course of a summer. I started by modeling, rigging, and animating the caracter, then imported it to unity. In unity I worked to create an extremely smooth 3rd person control for this character. If you have a spare Xbox controller, I recomment trying this demo out, since it is very satisfying to move the character around. Check it out at itch.io.</p>
+				<a class="btn btn-primary" href="https://jonathan-serbent.itch.io/project-smooth-controls" target="_blank">Smooth Controls</a>
+			</div>
+		</div>
+
+	</div>
+
+	
+	<!-- FOOTER -->
+	<div class="container-fluid" style="background-color: #FFFFFF; padding-top: 2%;padding-bottom: 2%">
+		<div class="row">
+			<div class="col-4" style="text-align: center;">
+				<a href="aboutMe.html" style="color: black;" > About me</a><br>
+				<a href="myMusic.html" style="color: black;"> Music</a><br>
+				<a href="myCoding.html" style="color: black;"> Coding</a><br>
+				<a href="gamedev.html" style="color: black;"> Game Development</a>
+			</div>
+			<div class="col-4" style="text-align: center;">
+				<a href="under-construction.html" style="color: black;">Contact me</a>
+			</div>
+			<div class="col-4" style="text-align: center;">
+				<a href="https://www.instagram.com/jonathanserbent/" style="color: black;" ><span class="fab fa-instagram"></span></a><br>
+				<a href="https://www.youtube.com/user/jasguitar1" style="color: black;"><span class="fab fa-youtube"></span></a><br>
+				<a href="https://itch.io/profile/jonathan-serbent" style="color: black;"><i class="fab fa-itch-io"></i></a><br>
+				<a href="https://www.linkedin.com/in/jonathan-serbent-66134b174" style="color: black;"><span class="fab fa-linkedin"></span></a>
+			</div>
+		</div>
+	</div>
+	
+	
+
+
+</body>
