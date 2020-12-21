@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/jonathan/public_html/
+    - node run build
+    - /bin/cp -R build $DEPLOYPATH
