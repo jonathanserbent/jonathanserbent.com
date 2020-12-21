@@ -1,0 +1,16 @@
+{
+    "Slides": [
+        {
+            "imageURL": "/media/carousel/landscape-graduation.jpg",
+            "label": "Highschool Grad",
+            "caption": "Heres a photo from way back to my highschool graduation.",
+            "alt": "Grad Photo"
+        },
+        {
+            "imageURL": "/media/carousel/longhornInvitational19.jpg",
+            "label": "Longhorn Invitational",
+            "caption": "I was able to snag first place in the men's beginner cable in the 2019 longhorn invitational!",
+            "alt": "longhorn invitational"
+        }
+    ]
+}

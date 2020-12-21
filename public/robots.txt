@@ -1,4 +1,0 @@
-# https://www.robotstxt.org/robotstxt.html
-# Gives instructions about to site to web robots
-User-agent: *
-Disallow:

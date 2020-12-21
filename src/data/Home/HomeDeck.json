@@ -1,0 +1,53 @@
+{
+    "cards": [
+        {
+            "title": "My Music",
+            "imageURL": "/media/portrait-guitar.jpg",
+            "imageAlt": "me with guitar",
+            "description": "See pictures and videos of me performing music, or check out some of the music I have written.",
+            "link": "/music",
+            "buttonText": "Check Out My Music"
+        },
+        {
+            "title": "Coding Experience",
+            "imageURL": "/media/screenshot-codehtml.png",
+            "imageAlt": "code",
+            "description": "Learn About my Coding experience, and check out projects that I have done in the past. You can also ownload games and projects I have made.",
+            "link": "/coding",
+            "buttonText": "My Coding Experience"
+        },
+        {
+            "title": "About Me",
+            "imageURL": "/media/campTexasFlag.jpg",
+            "imageAlt": "me at Camp Texas",
+            "description": "Get to know me a little bit better, and learn more about my life and my experiences.",
+            "link": "/about-me",
+            "buttonText": "More About Me"
+        },
+        {
+            "title": "Game Development",
+            "imageURL": "/media/screenshot-GameLSM.png",
+            "imageAlt": "A game I made",
+            "description": "I used to be really into game development, and still play around with it from time to time. Check out some of those projects here.",
+            "link": "/games",
+            "buttonText": "My games and demos"
+        },
+        {
+            "title": "Online Resume",
+            "imageURL": "/media/carousel/landscape-graduation.jpg",
+            "imageAlt": "me at highschool graduation",
+            "description": "If you are a recruiter, or want to know more about my professional experience, you can check out this online version of my resume. I try to keep it as up to date as possible.",
+            "link": "/resume",
+            "buttonText": "My Resume"
+        },
+        {
+            "title": "My Contact Info",
+            "imageURL": "/media/landscape-swimminghenry.jpg",
+            "imageAlt": "Me with a friend",
+            "description": "Want to get in touch with me? Click the link below to find out the best way to reach out.",
+            "link": "/contact",
+            "buttonText": "Contact Me"
+        }
+        
+    ]
+}

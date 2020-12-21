@@ -1,0 +1,21 @@
+{
+    "photoURL": "/media/portrait.jpg",
+    "paragraphs": [
+        {
+            "title": "My Life in Shanghai",
+            "content": "For the last 12 years I have been living abroad in Shanghai, China. This surprises a lot of people, and as a result I get a lot of questions like, \"do you speak chinese?\" or, \"but you dont look chinese...?\" But yes, I did live in Shanghai for over a decade, and it was absolutely amazing. In Shanghai I was able to meet so many people from all sorts of backgrounds from all over the world. I also was able to get plugged in to the local music scene and play a bunch of gigs. In Shanghai I met a lot of lifelong friends, and had many incredible experiences, like hiking through the mountains north of Beijing, helping install a water system in Yunnan, and getting to eat jian bing for breakfast cooked by a local street vendor on my way to school every morning. Living in an Shanghai greatly shaped who I am as a person and gave me a greater global perspective. If anyone is planning on visiting Asia, I would definitely recommend visiting Shanghai along the way!"
+        },
+        {
+            "title": "Moving Back to The States",
+            "content": "Currently I am in college at the University of Texas at Austin, and I could not love it more. I am a Computer Science major, and I plan on graduating in May of 2022. I have also had a blast getting involved in student organizations on campus, such as Texas Wake, Collegium Musicum Choir, and EGaDS! (Electronic Game Developers Society). In Texas Wake I was Team Manager for one semester, and President for two. Getting used to living in the states again has been tricky, but I've really enjoyed getting to learn more about the States, and become \"more American.\""
+        },
+        {
+            "title": "Early Career",
+            "content": "So far I am still finishing up college, but I have already done a few internships. After my freshman year of highschool I worked for a startup in Austin called Waldo Photos. This was my first programming job, and so I learned a lot about the backend of applications, and got a feel for what it is like to be a Software Engineer. After my Sophomore year I Interned at PayPal. The internship was remote, but I worked with the Routing Team, and got to learn a lot about Routing in the backend, as well as a lot of important tools for developing in an agile workflow. Next Summer (2021) I will be working at Microsoft as an Intern on th C&AI Team. I am really interested in full-stack development, and from my work experience so far I have loved getting to learn more about that. In the future I would like to learn more about AI and Mobile Applications, since those are areas that really interest me."
+        },
+        {
+            "title": "Hobbies",
+            "content": "As you can probably tell from the photos of me wakeboarding and wakesurfing, I really love getting to go out on the water and tear it up! It's definitely my favorite way to get outside and have fun with friends. I have competed in a few competitions, and have even gotten first place in the mens beginner division of a collegiate competition. Outside of that my biggest hobby is music. I've been playing guitar since I was 6, and singing probably since I was 10. I love to play rock and metal, but I am also listen to a lot of alternative and progressive music. If you want to listen to some of my music check out the music tab!"
+        }
+    ]
+}
