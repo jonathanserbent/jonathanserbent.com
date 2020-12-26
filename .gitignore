@@ -26,3 +26,7 @@ yarn-error.log*
 
 # Ignore Sass Compiled CSS
 *.css
+
+# Annoying server side fixes (I hope)
+stderr.log
+/tmp
