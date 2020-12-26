@@ -4,6 +4,7 @@ deployment:
     - export DEPLOYPATH=/home/jonathan/public_html/
     - source /home/jonathan/nodevenv/website-repo/10/bin/activate
     - cd /home/jonathan/website-repo
+    - npm install
     - npm run build
     - /bin/rm -R $DEPLOYPATH
     - /bin/cp -R build $DEPLOYPATH
