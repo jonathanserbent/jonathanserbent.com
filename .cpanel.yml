@@ -2,7 +2,8 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/jonathan/public_html/
-    - source /home/jonathan/nodevenv/website-repo/10/bin/activate && cd /home/jonathan/website-repo
+    - source /home/jonathan/nodevenv/website-repo/10/bin/activate
+    - cd /home/jonathan/website-repo
     - npm run build
     - /bin/rm -R $DEPLOYPATH
     - /bin/cp -R build $DEPLOYPATH
