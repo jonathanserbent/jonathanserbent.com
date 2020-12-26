@@ -1,0 +1,134 @@
+{
+    "projects": [
+        {
+            "title": "Huffman Coding Compression",
+            "description": "This project was for CS 314: Data Structures. In this project I had to use binary trees, and queues to do huffman encoding to compress files. The program would read a byte at a time, and count up the number of occurences of each byte in the file. The tally for each byte along with the type of byte would be placed into a priority queue. They would then be popped from the queue in order to make a binary tree. Traversing this tree would determine the new byte value for whatever node it arrived at. The new values were then written out.",
+            "additionalParagraphs": [],
+            "languages":[
+                "java"
+            ],
+            "tools": [],
+            "tags": [
+                "school"
+            ],
+            "gitURL": "",
+            "deployedURL": "",
+            "rating": 1,
+            "imageURL": "",
+            "media": [],
+            "videoURL": ""
+        },
+        {
+            "title": "Bomb Lab",
+            "description": "This project was for CS 429: Computer Architecture. In this lab I was assigned a \"Bomb,\" which was really just an assembly program with 6 phases. For each phase, I had to read, debug, and deconstruct the assembly code to figure out what to input in order to \"defuse\" the \"bomb.\" In the last phase I also had to read through obfuscated code to determine what to pass it.",
+            "additionalParagraphs": [],
+            "languages":[
+                "c",
+                "x-86 assembly"
+            ],
+            "tools": [
+                "gdb"
+            ],
+            "tags": [
+                "school"
+            ],
+            "gitURL": "",
+            "deployedURL": "",
+            "rating": 1,
+            "imageURL": "",
+            "media": [],
+            "videoURL": ""
+        },
+        {
+            "title": "Attack Lab",
+            "description": "This project wasa for CS 429: Computer Architecture. In this lab I passed a string to a program, and intentionally overflowed the input in order to get the program to execute code it hadn't intended on executing. For the first 3 phases of this lab I was able to write in code which could be executed, and call said code. For the last 2 phases I had to find sections of code within the program which would do things, and overwrite the return adress to jump to those sections of the code.",
+            "additionalParagraphs": [],
+            "languages":[
+                "x-86 assembly"
+            ],
+            "tools": [
+                "gdb"
+            ],
+            "tags": [
+                "school"
+            ],
+            "gitURL": "",
+            "deployedURL": "",
+            "rating": 2,
+            "imageURL": "",
+            "media": [],
+            "videoURL": ""
+        },
+        {
+            "title": "Personal Website",
+            "description": "This is the website you are looking at right now! I originally created this website after graduating from high school using bootstrap and writing plain html. After learning how to use modern frontend web frameworks, I remade the site in React, again using Bootstrap. This time I customized Bootstrap's style using Sass, and structured the project to be much more extensible.",
+            "additionalParagraphs": [],
+            "languages":[
+                "typescript"
+            ],
+            "tools": [
+                "NodeJS",
+                "React",
+                "Bootstrap",
+                "Sass"
+            ],
+            "tags": [
+                "web development"
+            ],
+            "gitURL": "https://github.com/jonathanserbent/jonathanserbent.com",
+            "deployedURL": "",
+            "rating": 5,
+            "imageURL": "/media/shredding.jpg",
+            "media": [],
+            "videoURL": ""
+        },
+        {
+            "title": "Health At Home",
+            "description": "This was a website I made for my Software Engineering class. I was assigned to a team, and together we made a website focused on health and wellness. We used React and Bootstrap for the front-end, and python and flask for the back-end API, with a PostgreSQL database. We deployed the project through AWS.",
+            "additionalParagraphs": [],
+            "languages":[
+                "typescript",
+                "python"
+            ],
+            "tools": [
+                "NodeJS",
+                "React",
+                "Bootstrap",
+                "Flask",
+                "PostgreSQL",
+                "AWS"
+            ],
+            "tags": [
+                "web development",
+                "school"
+            ],
+            "gitURL": "https://gitlab.com/health-at-home-team/health-at-home",
+            "deployedURL": "https://www.healthathome.me",
+            "rating": 5,
+            "imageURL": "/media/healthAtHome.png",
+            "media": [],
+            "videoURL": ""
+        },
+        {
+            "title": "PintOS",
+            "description": "For my operating systems class, I created a fully functioning (though simple) operating system. We implemented on top of PintOS, which is a bare-bones OS named after the fact that it is pint-sized. On top of PintOS, we implemented a command line which handled applications running simultaneously in the background, multithreading within programs, virtual memory with swap space, and a file system.",
+            "additionalParagraphs": [],
+            "languages":[
+                "C"
+            ],
+            "tools": [
+                "gdb"
+            ],
+            "tags": [
+                "operating systems",
+                "school"
+            ],
+            "gitURL": "",
+            "deployedURL": "",
+            "rating": 3,
+            "imageURL": "",
+            "media": [],
+            "videoURL": ""
+        }
+    ]
+}

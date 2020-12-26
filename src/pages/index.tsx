@@ -3,3 +3,4 @@ export { default as NotFound } from './NotFound';
 export { default as Home } from './Home';
 export { AboutPage as About} from './About';
 export { default as UnderConstruction} from './UnderConstruction';
+export { default as Coding} from './Coding';
