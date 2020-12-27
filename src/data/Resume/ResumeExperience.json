@@ -1,0 +1,66 @@
+{
+    "jobs": [
+        {
+            "company": "PayPal",
+            "position": "Software Engineering Intern 2",
+            "startDate": "May 2020",
+            "endDate": "August 2020",
+            "location": "Remote out of Austin, TX",
+            "technologies": [
+                "Golang",
+                "Bootstrap",
+                "Docker"
+            ],
+            "bulletPoints": [
+                "Worked on the Routing Team and created human readable logs of routing events for the SRE team and other PayPal engineers.",
+                "Expanded project into its own web service, where people could search for routing events and see readable logs, routing steps, and a sequence diagram describing the routing.",
+                "Used bootstrap for the front-end and Golang and Gorilla-MUX for the routing/handlers."
+            ]
+        },
+        {
+            "company": "Waldo Photos",
+            "position": "Software Engineering Intern",
+            "startDate": "May 2019",
+            "endDate": "September 2019",
+            "location": "Austin, TX",
+            "technologies": [
+                "Python",
+                "GraphQL",
+                "PostgreSQL"
+            ],
+            "bulletPoints": [
+                "Created an NPS survey bot using Python, Postgres, and sending messages through Twilio, for the company to receive feedback and find potential sales leads with a referral program.",
+                "Worked with a reporting team to pull transaction data from stripe and generate financial reports for the company and CEO.",
+                "Worked with the Tier-2 Support team handling support tickets."
+            ]
+        },
+        {
+            "company": "XRaise Exploration Station",
+            "position": "Intern",
+            "startDate": "May 2017",
+            "endDate": "June 2017",
+            "location": "Ithaca, NY",
+            "technologies": [
+                "Arduino",
+                "C++"
+            ],
+            "bulletPoints": [
+                "Created a model of LIGO’s seismograph using Arduino and neodymium magnets. Wrote code to control the electrical components and display seismographic activity in C++."
+            ]
+        },
+        {
+            "company": "Dell",
+            "position": "Intern",
+            "startDate": "May 2016",
+            "endDate": "June 2017",
+            "location": "Round Rock, TX",
+            "technologies": [
+                "Bootstrap",
+                "HTML & CSS"
+            ],
+            "bulletPoints": [
+                "Worked on front end web development for a big data team within Dell using Bootstrap, HTML, and CSS."
+            ]
+        }
+    ]
+}

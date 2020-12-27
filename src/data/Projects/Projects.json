@@ -73,7 +73,8 @@
                 "Sass"
             ],
             "tags": [
-                "web development"
+                "web development",
+                "Resume"
             ],
             "gitURL": "https://github.com/jonathanserbent/jonathanserbent.com",
             "deployedURL": "",
@@ -100,7 +101,8 @@
             ],
             "tags": [
                 "web development",
-                "school"
+                "school",
+                "Resume"
             ],
             "gitURL": "https://gitlab.com/health-at-home-team/health-at-home",
             "deployedURL": "https://www.healthathome.me",
@@ -121,7 +123,8 @@
             ],
             "tags": [
                 "operating systems",
-                "school"
+                "school",
+                "Resume"
             ],
             "gitURL": "",
             "deployedURL": "",

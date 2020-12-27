@@ -1,5 +1,5 @@
 import { BrowserRouter , Route, Switch } from 'react-router-dom';
-import {NotFound, Home, About, UnderConstruction, Coding} from '../pages';
+import {NotFound, Home, About, UnderConstruction, Coding, Contact, Resume} from '../pages';
 
 function Routing() {
   return (
@@ -10,8 +10,8 @@ function Routing() {
             <Route exact path="/coding" component={Coding}/>
             <Route exact path="/music" component={UnderConstruction}/>
             <Route exact path="/games" component={UnderConstruction}/>
-            <Route exact path="/contact" component={UnderConstruction}/>
-            <Route exact path="/resume" component={UnderConstruction}/>
+            <Route exact path="/contact" component={Contact}/>
+            <Route exact path="/resume" component={Resume}/>
             <Route component={NotFound}/>
       </Switch>
     </BrowserRouter>

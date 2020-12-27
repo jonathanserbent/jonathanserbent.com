@@ -1,0 +1,30 @@
+{
+    "socials": [
+        {
+            "name": "instagram",
+            "url": "",
+            "iconPrefix": "fab",
+            "iconName": "instagram"
+        }
+    ],
+    "contactInfo": [
+        {
+            "title": "Tech Recruiters",
+            "description": "If you are a recruiter for a tech company looking to get in contact with me for hiring purposes, please reach out to me on Linkedin. If you already have my personal email, you can also reach me there.",
+            "link": "https://www.linkedin.com/in/jonathan-serbent-66134b174/",
+            "linkText":"Linkedin"
+        },
+        {
+            "title": "Music Inquiries",
+            "description": "If you want to reach me for music related inquiries, such as doing collaborations or booking gigs, please message my Instagram account. Please note that I am currently located within the Austin area.",
+            "link": "https://www.linkedin.com/in/jonathan-serbent-66134b174/",
+            "linkText":"Instagram"
+        },
+        {
+            "title": "General Inquiries",
+            "description": "Unfortunately, I do not have a method set up yet for general inquiries. In the future I will get a email set up that is not my personal email, and any general inquiries can be directed there.",
+            "link": "",
+            "linkText":""
+        }
+    ]
+}

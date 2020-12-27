@@ -4,3 +4,5 @@ export { default as Home } from './Home';
 export { AboutPage as About} from './About';
 export { default as UnderConstruction} from './UnderConstruction';
 export { default as Coding} from './Coding';
+export { ContactPage as Contact} from './Contact';
+export { default as Resume} from "./Resume"

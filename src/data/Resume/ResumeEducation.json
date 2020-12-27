@@ -1,0 +1,30 @@
+{
+    "schools": [
+        {
+            "name": "University of Texas",
+            "department": "College of Natural Sciences",
+            "degree": "BSA in Computer Science",
+            "graduation": "May 2022",
+            "location": "Austin, TX",
+            "gpa": "3.5/4.0"
+        },
+        {
+            "name": "Concordia International School Shanghai",
+            "department": "",
+            "degree": "",
+            "graduation": "May 2018",
+            "location": "Shanghai, China",
+            "gpa": ""
+        }
+    ],
+    "courses": [
+        "Data Structures",
+        "Object Oriented Programming",
+        "Software Engineering",
+        "Computer Architecture",
+        "Algorithms and Complexity",
+        "Operating Systems",
+        "Matrices and Linear Algebra",
+        "Discrete Math"
+    ]
+}
