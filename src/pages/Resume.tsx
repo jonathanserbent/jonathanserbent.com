@@ -1,14 +1,9 @@
 import { Container, Row, Col } from "react-bootstrap";
-import { ResumeEducation } from "../components/Resume/ResumeEducation";
-import { ResumeCoursework } from "../components/Resume/ResumeCoursework";
-import { ResumeSkills} from "../components/Resume/ResumeSkills";
-import { ResumeExperience} from "../components/Resume/ResumeExperience";
-import { ResumeProjects } from "../components/Resume/ResumeProjects";
-import { default as ResumeEducationData } from "../data/Resume/ResumeEducation.json";
-import { default as ResumeSkillsData } from "../data/Resume/ResumeSkills.json";
-import { default as ResumeExperienceData } from "../data/Resume/ResumeExperience.json";
+import { ResumeCoursework, ResumeEducation, ResumeExperience, ResumeLeadership, ResumeProjects, ResumeSkills } from "../components/Resume";
 import { default as ProjectsData } from "../data/Projects/Projects.json";
+import { default as ResumeData } from "../data/Resume/Resume.json"
 import { Dates } from "../app/Dates";
+import React from "react";
 
 const Resume = () => (
     <Container fluid>
@@ -24,17 +19,18 @@ const Resume = () => (
                 <h4 className="text-center">{Dates.resume}</h4>
             </Col>
         </Row>
-        <Container className="bg-white text-dark my-5 rounded">
+        <Container className="bg-white text-dark my-5 rounded py-2 pb-4 ">
             <h1 className="display-3 text-center">Jonathan Serbent</h1>
             <hr/>
             <Row>
                 <Col md={4} className="mx-0 px-0">
-                    <ResumeEducation {...ResumeEducationData}/>
-                    <ResumeCoursework {...ResumeEducationData}/>
-                    <ResumeSkills {...ResumeSkillsData}/>
+                    <ResumeEducation {...ResumeData}/>
+                    <ResumeCoursework {...ResumeData}/>
+                    <ResumeSkills {...ResumeData}/>
+                    <ResumeLeadership {...ResumeData}/>
                 </Col>
                 <Col md={8} className="mx-0 px-0">
-                    <ResumeExperience {...ResumeExperienceData}/>
+                    <ResumeExperience {...ResumeData}/>
                     <ResumeProjects {...ProjectsData} />
                 </Col>
             </Row>

@@ -1,4 +1,32 @@
 {
+    "schools": [
+        {
+            "name": "University of Texas",
+            "department": "College of Natural Sciences",
+            "degree": "BSA in Computer Science",
+            "graduation": "May 2022",
+            "location": "Austin, TX",
+            "gpa": "3.5/4.0"
+        },
+        {
+            "name": "Concordia International School Shanghai",
+            "department": "",
+            "degree": "",
+            "graduation": "May 2018",
+            "location": "Shanghai, China",
+            "gpa": ""
+        }
+    ],
+    "courses": [
+        "Data Structures",
+        "Object Oriented Programming",
+        "Software Engineering",
+        "Computer Architecture",
+        "Algorithms and Complexity",
+        "Operating Systems",
+        "Matrices and Linear Algebra",
+        "Discrete Math"
+    ],
     "jobs": [
         {
             "company": "PayPal",
@@ -61,6 +89,91 @@
             "bulletPoints": [
                 "Worked on front end web development for a big data team within Dell using Bootstrap, HTML, and CSS."
             ]
+        }
+    ],
+    "programmingLanguages": [
+        {
+            "language":"Python",
+            "skillLevel": 5
+        },
+        {
+            "language":"C++",
+            "skillLevel": 5
+        },
+        {
+            "language":"Golang",
+            "skillLevel": 4
+        },
+        {
+            "language":"Java",
+            "skillLevel": 3
+        },
+        {
+            "language":"Shell",
+            "skillLevel": 5
+        },
+        {
+            "language":"HTML & CSS",
+            "skillLevel": 4
+        },
+        {
+            "language":"Docker",
+            "skillLevel": 4
+        },
+        {
+            "language":"Git",
+            "skillLevel": 4
+        },
+        {
+            "language":"C",
+            "skillLevel": 3
+        },
+        {
+            "language":"C#",
+            "skillLevel": 2
+        },
+        {
+            "language":"Javascript",
+            "skillLevel": 3
+        },
+        {
+            "language":"Typescript",
+            "skillLevel": 4
+        },
+        {
+            "language":"Agile Development",
+            "skillLevel": 4
+        },
+        {
+            "language":"CI/CD",
+            "skillLevel": 5
+        },
+        {
+            "language":"Testing",
+            "skillLevel": 4
+        }
+    ],
+    "languages": [
+        {
+            "language": "Mandarin",
+            "proficiency": "Conversational"
+        }
+    ],
+    "talents": [
+        "Guitar",
+        "Singing",
+        "Wakeboarding"
+    ],
+    "leadership": [
+        {
+            "org": "Texas Wake",
+            "position": "Team Manager, President",
+            "date": "2019-2020"
+        },
+        {
+            "org": "Game Development Club",
+            "position": "Founder, Leader",
+            "date": "2016-2018"
         }
     ]
 }
