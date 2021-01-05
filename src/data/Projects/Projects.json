@@ -62,7 +62,10 @@
         {
             "title": "Personal Website",
             "description": "This is the website you are looking at right now! I originally created this website after graduating from high school using bootstrap and writing plain html. After learning how to use modern frontend web frameworks, I remade the site in React, again using Bootstrap. This time I customized Bootstrap's style using Sass, and structured the project to be much more extensible.",
-            "additionalParagraphs": [],
+            "additionalParagraphs": [
+                "When I first created the website, I didn't know anything about web development, and so I directly wrote the html using the Bootstrap library. The downside of this was that the website was a pain to update. After I had created Health At Home with my classmates for my Software Engineering class, I decided to completely remake my personal website in React. I used React's Functional Components to create each aspect of the site in such a way that it is easy to change one aspect of the website without breaking others. I also kept responsiveness in mind as I was re-creating the site, and as a result it also looks really good on mobile!",
+                "My favorite part of the website is the way that it seperates out the data from the components. I tried to follow the MVC (Model, View, Controller) layout when designing this website, but was a little unsure about how to follow it exactly, since this site has no backend or database. After looking at some other examples, I started using json files to hold the data for the website, allowing me to update them with raw data and have the website automatically read the json and update itself. This makes things like adding projects, or items to my virtual resume really easy, since I don't need to touch the html/css at all."
+            ],
             "languages":[
                 "typescript"
             ],
@@ -86,7 +89,11 @@
         {
             "title": "Health At Home",
             "description": "This was a website I made for my Software Engineering class. I was assigned to a team, and together we made a website focused on health and wellness. We used React and Bootstrap for the front-end, and python and flask for the back-end API, with a PostgreSQL database. We deployed the project through AWS.",
-            "additionalParagraphs": [],
+            "additionalParagraphs": [
+                "In the sofware engineering class, we learned a lot about general practices that software engineers use, and then put it into practice while using comming tools like Docker and Git. We developed pipelines for out front and back end tests to run in to check that our websites were working correctly before they launched. To deploy the front end, back end, and database, we used Amazon Web Services (AWS). Our website has 3 models, each with many instances. It has Workouts, Recipes, and Health News",
+                "I was working primarily on the front end team in my group. Specifically, I spent most of my time working on the Health news page. We used React and Bootstrap to create the front end, and Axios to make requests to our backend. One of the challenges we had to overcome was searching, sorting, and filtering data, and creating designs and UI that would allow the user to do these things.",
+                "The Backend was written in Python using flask, and iteracts with our PostgreSQL database. The backend team was responsible for scraping public API's to get the data for our website, as well as designing a RESTful API for the frontend to consume. The backend also had to allow certain queries to contain parameters to allow for the searching sorting and filtering."
+            ],
             "languages":[
                 "typescript",
                 "python"
@@ -109,7 +116,7 @@
             "rating": 5,
             "imageURL": "/media/healthAtHome.png",
             "media": [],
-            "videoURL": ""
+            "videoURL": "https://youtube.com/embed/TSbDd8kGdZ8"
         },
         {
             "title": "PintOS",
