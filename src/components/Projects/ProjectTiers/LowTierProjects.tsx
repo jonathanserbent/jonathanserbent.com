@@ -15,12 +15,12 @@ export const LowTierProjects: React.FC<{projects: Project[]}> = (props) => (
                     <Row className="justify-content-center mx-0">
                         {project.gitURL!=="" && 
                             <Col xs={6} className="my-auto d-flex flex-column">
-                                <Button href={project.gitURL} className="align-self-center">Git Repo</Button>
+                                <Button href={project.gitURL} target="_blank" className="align-self-center">Git Repo</Button>
                             </Col>
                         }
                         {project.deployedURL!=="" && 
                             <Col xs={6} className="my-auto d-flex flex-column">
-                                <Button href={project.deployedURL} className="align-self-center">See it live</Button>
+                                <Button href={project.deployedURL} target="_blank" className="align-self-center">See it live</Button>
                             </Col>
                         }
                     </Row>

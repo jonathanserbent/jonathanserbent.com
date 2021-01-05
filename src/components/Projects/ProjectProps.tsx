@@ -17,4 +17,5 @@ export type Project = {
 
 export type ProjectsProps = {
     projects: Project[]
+    title ?: string
 };

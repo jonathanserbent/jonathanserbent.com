@@ -139,6 +139,112 @@
             "imageURL": "",
             "media": [],
             "videoURL": ""
+        },
+        {
+            "title": "Illegal Aliens",
+            "description": "A game I created over a weekend for the EGaDS Fall 2018 game jam. In this game you drive around a planet as a car with a boxing glove, defending earth from UFO's. If they get too close they will start to attack and destroy the planet. The longer you stay alive the more points you get. I created this game entirely alone and entirely from scratch, and with it, won the Best Overall Game award.",
+            "additionalParagraphs": [],
+            "languages":[
+                "c#"
+            ],
+            "tools": [
+                "Unity",
+                "Photoshop",
+                "Bosca Ceoil"
+            ],
+            "tags": [
+                "Game"
+            ],
+            "gitURL": "",
+            "deployedURL": "https://jonathan-serbent.itch.io/illegal-aliens",
+            "rating": 3,
+            "imageURL": "/media/illegalAliens.jpg",
+            "media": [],
+            "videoURL": ""
+        },
+        {
+            "title": "Smooth Controls",
+            "description": "This is a demo I made focused on perfecting smooth third person controls. I programmed this to control similar to Dark Souls and other third-person games I was playing at the time. The game also works with an XBOX Controller. The result was a very smooth, fully animated, 3D, third person controller. The camera was also programmed to avoid collisions and items obscuring the player.",
+            "additionalParagraphs": [],
+            "languages":[
+                "c#"
+            ],
+            "tools": [
+                "Unity",
+                "Blender"
+            ],
+            "tags": [
+                "Game"
+            ],
+            "gitURL": "",
+            "deployedURL": "https://jonathan-serbent.itch.io/project-smooth-controls",
+            "rating": 2,
+            "imageURL": "/media/controlsGame.png",
+            "media": [],
+            "videoURL": ""
+        },
+        {
+            "title": "Seamless Portals",
+            "description": "This is a demo I made focused on creating seamless portals. In the demo, you can walk between 3 portals and the player will teleport around the map when they walk through them. When looking at the portal you can see through to the other side, and the transition from one portal to another is perfectly seamless.",
+            "additionalParagraphs": [],
+            "languages":[
+                "c#"
+            ],
+            "tools": [
+                "Unity"
+            ],
+            "tags": [
+                "Game"
+            ],
+            "gitURL": "",
+            "deployedURL": "https://jonathan-serbent.itch.io/project-seamless-portals",
+            "rating": 3,
+            "imageURL": "/media/portalsGame.png",
+            "media": [],
+            "videoURL": ""
+        },
+        {
+            "title": "Terrain generation",
+            "description": "This is a demo I made focused on procedurally generating terrain. For this demo I followed an online tutorial to get the general idea, then finished the project on my own. The demo uses different levels of perlin noise to generate heightmaps pseudo-randomly, and the heightmaps are then used to generate meshes, and painted to look like terrain. The result is a collection of cool looking procedurally-generated terrains.",
+            "additionalParagraphs": [],
+            "languages":[
+                "c#"
+            ],
+            "tools": [
+                "Unity"
+            ],
+            "tags": [
+                "Game"
+            ],
+            "gitURL": "",
+            "deployedURL": "https://jonathan-serbent.itch.io/project-procedural-generated-land",
+            "rating": 3,
+            "imageURL": "/media/terrainGenerator.png",
+            "media": [],
+            "videoURL": ""
+        },
+        {
+            "title": "Jakebox Game",
+            "description": "This game was created for my Game Technologies class. The purpose was to recreate a jackbox-style game with our main focus on recreating the party-style multiplayer. We deployed a flask server to handle players joining the game from the web, and created host and client UI for the game. The game was centered around taking money without getting caught. ",
+            "additionalParagraphs": [],
+            "languages":[
+                "C++",
+                "GDScript",
+                "Python"
+            ],
+            "tools": [
+                "Godot",
+                "Flask"
+            ],
+            "tags": [
+                "Game"
+            ],
+            "gitURL": "",
+            "deployedURL": "",
+            "rating": 5,
+            "imageURL": "/media/jakeboxIntro.png",
+            "media": [],
+            "videoURL": "https://youtube.com/embed/XX00nWmqv_Y"
         }
     ]
 }

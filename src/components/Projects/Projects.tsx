@@ -31,7 +31,7 @@ export const Projects: React.FC<ProjectsProps> = (props) => {
 
     return (
         <Container>
-            <h3 className="display-3 text-center">My Projects</h3>
+            <h3 className="display-3 text-center">{props.title}</h3>
             <hr className="hr-nice"/>
             <TopTierProjects projects={topTierProjectsData}/>
             <MidTierProjects projects={midTierProjectsData}/>

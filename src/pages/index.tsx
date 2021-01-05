@@ -7,3 +7,4 @@ export { default as Coding } from './Coding';
 export { ContactPage as Contact } from './Contact';
 export { default as Resume } from "./Resume";
 export { default as Project } from "./Project";
+export { default as Games } from './Games';
