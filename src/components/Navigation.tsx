@@ -1,4 +1,4 @@
-import { faEnvelope, faHome, faLaptopCode, faMusic, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faHome, faLaptopCode, faMusic, faUser, faFileAlt } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import {Navbar, Nav} from 'react-bootstrap';
@@ -13,6 +13,7 @@ export const Navigation = () => (
                 <Nav.Item><Nav.Link href="/about-me"><FontAwesomeIcon icon={faUser} inverse /> About Me</Nav.Link></Nav.Item>
                 <Nav.Item><Nav.Link href="/coding"><FontAwesomeIcon icon={faLaptopCode} inverse /> Coding Projects</Nav.Link></Nav.Item>
                 <Nav.Item><Nav.Link href="/music"><FontAwesomeIcon icon={faMusic} inverse /> My Music</Nav.Link></Nav.Item>
+                <Nav.Item><Nav.Link href="/resume"><FontAwesomeIcon icon={faFileAlt} inverse /> Resume</Nav.Link></Nav.Item>
                 <Nav.Item><Nav.Link href="/contact"><FontAwesomeIcon icon={faEnvelope} inverse /> Contact Me</Nav.Link></Nav.Item>
             </Nav>
         </Navbar.Collapse>
